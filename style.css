@@ -71,3 +71,53 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* INIZIO SEZIONE MEDIA QUERY */
+
+@media all and (max-width: 420px){
+
+  .row{
+    width: auto;
+    margin-top: 20px;
+  }
+
+  img{
+    height: 100px;
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 80%;
+    float: none;
+    margin: 0 auto 50px;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 80%;
+    margin: 0 auto 50px;
+}
+
+  #steps {
+    padding: 10px 0;
+    margin-bottom: 50px;
+  } 
+
+  /* BLOCCO PERCHE */
+  #why {
+    padding: 10px 0;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    padding: 10px 0;
+    margin-bottom: 80px auto;
+  }
+
+}
