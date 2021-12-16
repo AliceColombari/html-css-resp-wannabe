@@ -149,7 +149,7 @@ img {
     vertical-align: middle;
   }
 
-  .left::after, .central::after, .right::after, .second::after, .third::after{
+  .left::after, .central::after, .right::after, .first::after, .second::after, .third::after{
     content: "";
     display: table;
     clear: both;
@@ -184,13 +184,13 @@ img {
   /* BLOCCO PERCHE */
   #why {
     padding: 10px 0;
+    margin: 80px 0px;
   }
 
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
     padding: 10px 0;
-    margin-bottom: 80px auto;
   }
-
+  
 }
