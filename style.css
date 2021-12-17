@@ -77,9 +77,24 @@ img {
 
 @media all and (max-width: 420px){
 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #lezioni .row{
+    background-color: rgb(255, 241, 196);
+  }
+
+  #why{
+    background-color: rgb(255, 241, 196);
+  }
+
   .row{
     width: auto;
-    margin-top: 20px;
+    margin-top: 0px;
+    padding-top: 20px;
   }
 
   img{
