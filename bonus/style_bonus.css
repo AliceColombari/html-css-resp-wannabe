@@ -132,6 +132,15 @@ img {
     margin-top: 20px;
   }
 
+  #lezioni .row{
+    margin-top: 0;
+    background-color: rgb(255, 241, 196);
+  }
+
+  #why{
+    background-color: rgb(255, 241, 196);
+  }
+
   img{
     height: 100px;
   }
